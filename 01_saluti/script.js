@@ -3,7 +3,7 @@
 const userName = 'Mario';
 
 // Dichiara la funzione qui.
-function personalGreetings(userName) {
+const personalGreetings = (userName) => {
     let hello = "Ciao, "
     result = hello + userName
     return result

@@ -32,7 +32,7 @@ function hoursGreetings(value) {
 
 
 // Invoca la funzione qui e stampa il risultato in console
-console.log(hoursGreetings(name))
+console.log(hoursGreetings(name));
 
 
 
