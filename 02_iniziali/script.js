@@ -4,10 +4,12 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
+const onlyFirst = names.map(firstLetter => {
+    return firstLetter[0]
+});
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(onlyFirst)
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
